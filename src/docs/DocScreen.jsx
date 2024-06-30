@@ -20,7 +20,7 @@ const DocScreen = () => {
         </div>
       </div>
       <div className="mt-14 w-[80%] h-[80vh] border-black mx-auto md:flex lg:flex">
-        <div className="md:w-[30%]  max-sm:w-[80%] sm:w-[80%]  h-full border-double border-8 border-black bg-white">
+        <div className="md:w-[30%]  max-sm:w-[80%] sm:w-[80%]  md:h-full border-double border-8 border-black bg-white">
           <div className="h-full w-full border-black border-2">
             <ul className="list-image-star list-inside text-textsecondary font-pixel ml-5 mt-10 md:text-xs lg:text-2xl font-semibold">
               <li

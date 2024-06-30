@@ -8,8 +8,8 @@ import { AuthKitProvider } from "@farcaster/auth-kit";
 const config = {
   relay: "https://relay.farcaster.xyz",
   rpcUrl: "https://mainnet.optimism.io",
-  domain: "example.com",
-  siweUri: "http://localhost:5173/",
+  domain: "basepetgame.vercel.app",
+  siweUri: "https://basepetgame.vercel.app/",
 };
 
 ReactDOM.createRoot(document.getElementById("root")).render(
