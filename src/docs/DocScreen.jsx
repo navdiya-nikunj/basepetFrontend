@@ -124,12 +124,15 @@ const DocScreen = () => {
               Introduction
             </p>
             <p>
-              Basepet is a Web 3.0 GameFi project hosted on Warpcast that
-              combines the charm of digital pets with blockchain technology.
-              Players can collect, and interact with unique pets while
-              participating in a vibrant community-driven ecosystem. Basepet
-              offers engaging gameplay, user-generated content, and various
-              opportunities for players to earn rewards.
+              Basepet is a pioneering Web 3.0 GameFi project hosted on Warpcast
+              that seamlessly blends the charm of digital pets with the
+              innovative potential of blockchain technology. By providing a
+              platform where players can collect, mint, and interact with unique
+              pets, Basepet fosters a vibrant community-driven ecosystem. With a
+              strong emphasis on user-generated content, engaging gameplay, and
+              decentralized rewards, Basepet offers players multiple
+              opportunities to immerse themselves in a rewarding and interactive
+              experience.
             </p>
             <p
               className="mt-5 text-2xl font-semibold text-textprimary"
@@ -167,11 +170,11 @@ const DocScreen = () => {
               Minting Pets
             </p>
             <p>
-              After the end of ITO, players who have tipped can mint their pets
-              on OpenSea or directly on the Basepet website. Those who have
-              previously tipped are eligible for free mints. New players can
-              also mint pets using a small amount of ETH. Once minted, these
-              pets become NFTs.
+              After the ITO (Initial Tipping Offering), players who have tipped
+              can mint their pets on OpenSea or directly on the Basepet website.
+              Those who have previously tipped are eligible for free mints. New
+              players can also mint pets using a small amount of ETH. Once
+              minted, these pets become NFTs.
             </p>
             <p
               className="mt-5 text-2xl font-semibold text-textprimary"
@@ -197,9 +200,14 @@ const DocScreen = () => {
             <p className="mt-2 font-semibold text-textprimary">Chest</p>
             <p>
               For the first two weeks, players can raffle in our frame and share
-              the frame to get either an apple, a hamburger, or a pizza (3 apple
-              / day, 2 hamburger / day, 1 pizza / day is required for each pet.)
+              the frame to receive either an apple, a hamburger, or a pizza.
+              Each pet requires:
             </p>
+            <ul className="list-disc list-inside mt-3">
+              <li>3 apples/day</li>
+              <li>2 hamburgers/day</li>
+              <li>1 pizza/day</li>
+            </ul>
             <p className="mt-2 font-semibold text-textprimary">
               Tipping to Feed Friends' Pets
             </p>
@@ -248,6 +256,29 @@ const DocScreen = () => {
                 content. The reward will be distributed in $BP and they can
                 transfer to $degen.
               </li>
+              <li>
+                <span className="text-textprimary">
+                  Game Creation Platform:
+                </span>{" "}
+                Basepet empowers players to become builders by allowing them to
+                create their own games within the platform. This feature:
+              </li>
+              <ul className="list-disc list-inside ml-5">
+                <li>
+                  <span className="text-textprimary">
+                    Increases Interactivity:
+                  </span>
+                  Builders can design unique games, enhancing the Warpcast
+                  frames and providing engaging experiences for players.
+                </li>
+
+                <li>
+                  <span className="text-textprimary">Earnings:</span>
+                  Builders earn revenue based on the success and engagement of
+                  their games, with Basepet taking a minimal 3% profit. This
+                  model encourages innovation and growth within the community.
+                </li>
+              </ul>
             </ul>
             <p
               className="mt-5 text-2xl font-semibold text-textprimary"
@@ -258,12 +289,13 @@ const DocScreen = () => {
             <p className="mt-2 font-semibold text-textprimary">Play Games</p>
             <ul className="list-disc list-inside mt-3">
               <li>
-                <span className="text-textprimary">Blindbox Game:</span> Players
+                <span className="text-textprimary">Blindbox Game:</span>Players
                 use $BP to participate in a blindbox game, earning valuable game
                 assets such as pet houses and accessories. Each click costs 1
-                $BP. Once players get game assets as NFTs, they could either
-                burn these NFTs to get $degen or they could put these assets on
-                their page to showcase.
+                $BP. Once players obtain game assets as NFTs, they can either
+                burn these NFTs to get $degen or showcase them on their page.
+                Players could share frames and earn 30% of all profit (profit =
+                total $BP spent - total $BP worth of game asset).
               </li>
               <ul className="list-disc list-inside ml-5">
                 <li>Game Assets and Hierarchy </li>
@@ -282,20 +314,20 @@ const DocScreen = () => {
             <ul className="list-disc list-inside mt-3">
               <li>
                 <span className="text-textprimary">Friend's place:</span>
-                Players could host an event in their houses and invite anyone to
-                join and have fun. Details will be announced soon.
+                Players can host events in their houses, inviting others to join
+                and have fun. Details will be announced soon.
               </li>
               <li>
                 <span className="text-textprimary">Pet Hospital:</span> Pets
-                will occasionally need to visit the hospital (e.g., they become
-                sick) and spend 10 $degen to recover. Creators of hospital
-                designs earn 30% whenever someone visits.
+                occasionally need to visit the hospital (e.g., they become sick)
+                and spend 10 $degen to recover. Creators of hospital designs
+                earn 30% of the earnings whenever someone visits.
               </li>
               <li>
                 <span className="text-textprimary">Pet Theme Park:</span>
                 Pets need to visit the theme park occasionally to maintain their
                 happiness and excitement levels. Players who create theme park
-                designs earn 30% when others visit.
+                designs earn 30% of the earnings when others visit.
               </li>
             </ul>
             <p
@@ -307,8 +339,9 @@ const DocScreen = () => {
             <p className="mt-2 font-semibold text-textprimary">Overview</p>
             <p>
               Basepet introduces an exciting PvP feature where players can
-              battle their pets equipped with weapons. This adds a competitive
-              aspect to the game, encouraging strategic play and collaboration.
+              battle their pets equipped with weapons, adding a competitive
+              aspect to the game and encouraging strategic play and
+              collaboration.
             </p>
             <p className="mt-2 font-semibold text-textprimary">Pet Leveling</p>
             <ul className="list-disc list-inside mt-3">
@@ -378,10 +411,13 @@ const DocScreen = () => {
               Conclusion
             </p>
             <p>
-              Basepet aims to adds some fun to Warpcast platform while offering
-              a unique, rewarding, and engaging experience for players. Through
-              community-driven content and continuous development, Basepet is
-              set to become a promising project on Warpcast social platform.
+              Basepet aims to enrich the Warpcast platform by offering a unique,
+              rewarding, and engaging experience for players. Through
+              community-driven content, innovative gameplay features, and
+              continuous development, Basepet is set to become a leading project
+              in the Web 3.0 gaming ecosystem. By empowering players as creators
+              and participants, Basepet fosters a dynamic and interactive
+              environment where creativity and collaboration thrive.
             </p>
           </div>
         </div>

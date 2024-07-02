@@ -11,7 +11,6 @@ function App() {
     profile: { username, fid },
   } = useProfile();
   console.log(isAuthenticated, username, fid);
-  const connectWallet = async () => {};
 
   return (
     <>
@@ -19,9 +18,9 @@ function App() {
         <div className="text-center mb-11">
           <h1 className="font-bold mb-4 text-5xl">Basepet</h1>
           <img
-            src="/basepetpfp.png"
+            src="/degenwalking.gif"
             alt="logo"
-            className=" w-40 h-28 mx-auto hover:animate-bounce mt-7"
+            className="w-30 h-28 mx-auto"
           />
           <h3 className="text-2xl">Farcaster based Game</h3>
         </div>
