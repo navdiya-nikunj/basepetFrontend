@@ -10,7 +10,6 @@ function App() {
     isAuthenticated,
     profile: { username, fid },
   } = useProfile();
-  console.log(isAuthenticated, username, fid);
 
   return (
     <>
