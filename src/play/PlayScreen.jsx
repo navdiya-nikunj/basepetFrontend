@@ -13,7 +13,7 @@ const PlayScreen = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await getPets(376106);
+        const res = await getPets(fid);
         console.log(res);
         setUser(res);
       } catch (e) {
