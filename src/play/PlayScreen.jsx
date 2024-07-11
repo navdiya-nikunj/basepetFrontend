@@ -21,7 +21,7 @@ const PlayScreen = () => {
       }
     };
 
-    if (!isAuthenticated) {
+    if (isAuthenticated) {
       fetchData();
     }
   }, []);
